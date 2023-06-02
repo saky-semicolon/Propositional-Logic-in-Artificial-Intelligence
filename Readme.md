@@ -50,7 +50,26 @@ Your handbag is stylish and I like its colour.
     In symbolic: s ∧ c
 
 Connective “but” has an identical role as “and”, thus, use same symbol ∧ <br>
+
 Your handbag is stylish but I like its colour <br>
 
     In symbolic: s ∧ c
 
+## EXERCISE
+Answer : <br>
+
+1. Boston is the capital of Massachusetts. Truth value: True.
+2. Miami is the capital of Florida. Truth value: False. (The capital of Florida is Tallahassee)
+3. 2 + 3 = 5. Truth value: True.
+4. 5 + 7 = 10. Truth value: False.
+5. x + 2 = 11
+> x + 2 = 11" not a proposition because it contains a variable (x) and is not a statement that can be determined as true or false without additional information about the value of x.
+
+| p | ¬q |
+| -- | -- |
+| True | False |
+| False | True |
+
+- The operation “not” or ¬ turns single statement into negation and it is not a connective.
+
+For example, the negation of *I like you is I don’t like you.*
