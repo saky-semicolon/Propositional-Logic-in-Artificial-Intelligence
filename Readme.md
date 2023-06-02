@@ -38,6 +38,9 @@
 | →  | if p then q (conditional/implication)  | p → q  |
 | ↔ | p if and only if q (biconditional)  | p ↔ q  |
 
+* If the compound statement has two variables (p and q) the truth table must be constructed with 4 rows.
+* If 3 variables (p, q and r), then 8 rows.
+
 Two primitive statements are defined as follows,
 
     s: Your handbag is stylish
@@ -65,6 +68,7 @@ Answer : <br>
 5. x + 2 = 11
 > x + 2 = 11" not a proposition because it contains a variable (x) and is not a statement that can be determined as true or false without additional information about the value of x.
 
+## TRUTH VALUES AND TRUTH TABLES(NOT)
 | p | ¬q |
 | -- | -- |
 | True | False |
@@ -73,3 +77,75 @@ Answer : <br>
 - The operation “not” or ¬ turns single statement into negation and it is not a connective.
 
 For example, the negation of *I like you is I don’t like you.*
+
+    p: I like you.
+    ¬q: I don't like you.
+## TRUTH VALUES AND TRUTH TABLES(CONJUNCTION /AND)
+Combine primary statements by the word “and”denoted by p ∧ q (if 2 statements)
+
+If p is true and q is true, then p ∧ q is true. Otherwise, p ∧ q is false.
+
+| p | q | p ∧ q |
+| -- | -- | -- |
+| False | False | False |
+| False | True | False |
+| True | False | False |
+| True | True | True |
+
+    p: I play the piano (false)
+    q: I study logic (true)
+Thus,
+
+    p ∧ q: I play the piano and study logic is a false statement
+## TRUTH VALUES AND TRUTH TABLES(DISJUNCTION/OR)
+Combine primary statements by the word “or”. Denoted by p ∨ q (if 2 statements)
+
+If p is true or q is true or both p and q are true, then p ∨ q is true. Otherwise, p ∨ q is false.
+
+| p | q | p ∨ q |
+| -- | -- | -- |
+| False | False | False |
+| False | True | True |
+| True | False | True |
+| True | True | True |
+
+    p: 2+3=6 (false)
+    q: 3>2 (true)
+Thus,
+
+    p ∨ q: (2+3=6) or (3>2) is a true statement
+
+## TRUTH VALUES AND TRUTH TABLES (CONDITIONAL STATEMENTS)
+A compound statement of the form “If p then q”, p → q
+In p → q, p is the hypothesis (antecedent or premise) and q is the conclusion (or consequence).
+
+If p is true and q is false, then the conditional p → q (*p implies q*) is false. Otherwise, p → q is true.
+
+| p | q | p → q |
+| -- | -- | -- |
+| False | False | True |
+| False | True | True |
+| True | False | False |
+| True | True | True |
+
+If Amy is a human being, then Amy has feeling.
+Defined primitive statement:
+
+    p : Amy is a human being (is the antecedent/hypothesis).
+    q : Amy has feeling (is the consequent).
+
+Thus, the only way the statement is false , that is:
+
+    p → q: If Amy is a human being and she doesn’t have feeling.
+
+## TRUTH VALUES AND TRUTH TABLES (BICONDITIONAL STATEMENTS)
+If p and q have the same truth value, then p ↔ q is true.
+If p and q have opposite truth value, then p ↔ q is false.
+
+| p | q | p ↔ q |
+| -- | -- | -- |
+| False | False | True |
+| False | True | False |
+| True | False | False |
+| True | True | True |
+
