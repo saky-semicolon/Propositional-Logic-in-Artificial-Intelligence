@@ -3,12 +3,12 @@
 
 ## Learning Outcome:
 <i>At the end of the class, students should be able to:</i>
-*Define primitive statements
-*Form a compound statements
-*define negation, conjunction, disjunction, conditional, biconditional, tautology, contradiction and contingency statements.
-*construct truth table.
+Define primitive statements
+    *Form a compound statements <br>
+    *define negation, conjunction, disjunction, conditional, biconditional, tautology, contradiction and contingency statements. <br>
+    *construct truth table. <br>
 
 ## LOGICAL CONNECTIVES
--Main components of symbolic logic are:
-    ❖ Proposition/Statements
-    ❖ Connectives
+Main components of symbolic logic are:
+    - Proposition/Statements
+    - Connectives
