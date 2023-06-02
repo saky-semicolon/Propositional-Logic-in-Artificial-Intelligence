@@ -1,5 +1,5 @@
 # Propositional Logic in Artificial Intelligence
-<img src="media_files/cover.png" style="align:centre">
+<img src="media_files/cover.webp" style="align:center;">
 
 ## Learning Outcome:
 <i>At the end of the class, students should be able to:</i>
@@ -20,7 +20,7 @@
 - A proposition is a declarative sentence that is either true or false.
 - The truth or falsify of a statement is called truth value.
 - Usually denoted by letters p, q, r, s and so on.
-<i>Example:</i>
+<i>Example:</i> <br>
 
 ✔ You will be late to school if you miss the bus; <br>
 ✔ Ms. Nina will have a broader audience next month;<br>
@@ -37,3 +37,20 @@
 | ∨ | p or q (disjunction)  | p ∨ q  |
 | →  | if p then q (conditional/implication)  | p → q  |
 | ↔ | p if and only if q (biconditional)  | p ↔ q  |
+
+Two primitive statements are defined as follows,
+
+    s: Your handbag is stylish
+    c: I like its colour.
+
+Connectives join primitives statements into more complex statement: <br>
+
+Your handbag is stylish and I like its colour.
+
+    In symbolic: s ∧ c
+
+Connective “but” has an identical role as “and”, thus, use same symbol ∧ <br>
+Your handbag is stylish but I like its colour <br>
+
+    In symbolic: s ∧ c
+
